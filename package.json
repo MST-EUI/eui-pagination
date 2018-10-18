@@ -70,6 +70,7 @@
   "dependencies": {
     "@mistong/eui-css": "^0.1.5",
     "classnames": "^2.2.6",
+    "prop-types": "^15.6.2",
     "rc-pagination": "^1.17.0"
   },
   "config": {
