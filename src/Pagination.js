@@ -27,7 +27,6 @@ export default class Pagination extends React.Component {
       className,
       ...others
     } = this.props;
-    console.log(others);
 
     const classes = classnames(
       prefixCls,
