@@ -1,5 +1,5 @@
 {
-  "name": "eui-pagination",
+  "name": "@mistong/eui-pagination",
   "version": "0.1.2",
   "description": "eui-pagination react component",
   "main": "dist/index.js",
