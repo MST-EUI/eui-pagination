@@ -1,3 +1,13 @@
+<a name="0.1.3"></a>
+## [0.1.3](https://github.com/MST-EUI/eui-pagination/compare/v0.1.2...v0.1.3) (2018-10-18)
+
+
+### Bug Fixes
+
+* renamed package.json name attribute ([70654d6](https://github.com/MST-EUI/eui-pagination/commit/70654d6))
+
+
+
 <a name="0.1.2"></a>
 ## [0.1.2](https://github.com/MST-EUI/eui-pagination/compare/v0.1.1...v0.1.2) (2018-10-18)
 

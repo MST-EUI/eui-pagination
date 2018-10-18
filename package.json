@@ -1,6 +1,6 @@
 {
   "name": "@mistong/eui-pagination",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "eui-pagination react component",
   "main": "dist/index.js",
   "scripts": {
