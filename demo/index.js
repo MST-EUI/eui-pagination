@@ -49,6 +49,7 @@ class DemoComponent extends React.Component {
   size="small"
 />
 `;
+
     return (
       <div className="eui-pagination-demo">
         <div className="eui-pagination-demo-content">
@@ -96,46 +97,58 @@ class DemoComponent extends React.Component {
             </thead>
             <tbody>
               <tr>
-                <td>type</td>
-                <td>背景图片类型 (<Code mode="inline">small</Code> <Code mode="inline">medium</Code> <Code mode="inline">large</Code>)</td>
-                <td>string</td>
-                <td><Code mode="inline">medium</Code></td>
+                <td>defaultCurrent</td>
+                <td>默认的当前页数</td>
+                <td>Number</td>
+                <td>1</td>
               </tr>
               <tr>
-                <td>children</td>
-                <td>描述文案</td>
-                <td>any</td>
-                <td>暂无数据</td>
+                <td>current</td>
+                <td>当前页码</td>
+                <td>Number</td>
+                <td>undefined</td>
               </tr>
               <tr>
-                <td>icon</td>
-                <td>自定义图片</td>
-                <td>string</td>
-                <td>https://yukap6.github.io/images/empty.png</td>
+                <td>total</td>
+                <td>总记录数</td>
+                <td>Number</td>
+                <td>0</td>
               </tr>
               <tr>
-                <td>lang</td>
-                <td>语言包类型 (<Code mode="inline">zh-cn</Code> <Code mode="inline">en</Code>)</td>
-                <td>string</td>
-                <td><Code mode="inline">zh-cn</Code></td>
+                <td>pageSize</td>
+                <td>每页条数</td>
+                <td>Number</td>
+                <td>10</td>
               </tr>
               <tr>
-                <td>className</td>
-                <td>添加自定义class</td>
-                <td>string</td>
-                <td><Code mode="inline">&#39;&#39;</Code></td>
+                <td>onChange</td>
+                <td>页码改变的回调</td>
+                <td>Function(current, pageSize)</td>
+                <td>-</td>
               </tr>
               <tr>
-                <td>style</td>
-                <td>自定义样式</td>
-                <td>object</td>
-                <td><Code mode="inline">{'{}'}</Code></td>
+                <td>showQuickJumper</td>
+                <td>是否可以快速跳转至某页</td>
+                <td>Bool / Object</td>
+                <td>false</td>
               </tr>
               <tr>
                 <td>prefixCls</td>
                 <td>样式名前缀</td>
                 <td>string</td>
-                <td>eui-empty-data</td>
+                <td>eui-pagination</td>
+              </tr>
+              <tr>
+                <td>simple</td>
+                <td>当添加该属性时，显示为简单分页</td>
+                <td>Object</td>
+                <td>null</td>
+              </tr>
+              <tr>
+                <td>size</td>
+                <td>尺寸</td>
+                <td>string</td>
+                <td>samll</td>
               </tr>
             </tbody>
           </table>
