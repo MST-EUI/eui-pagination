@@ -14,7 +14,7 @@ render() {
 ```
 
 |参数|说明|类型|默认值|
-|----|----|----|----|------|
+|----|----|----|------|
 |defaultCurrent|默认的当前页数|Number|1|
 |current|当前页码|Number|undefined|
 |total|总记录数|Number|0|
