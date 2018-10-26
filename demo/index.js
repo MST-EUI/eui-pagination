@@ -19,12 +19,14 @@ import './index.scss';
 /* placeholder begin class */
 class DemoComponent extends React.Component {
   render() {
-    const sourceCode = `import { Pagination } from '@mistong/eui';
+    const basedStyleCode = `import { Pagination } from '@mistong/eui';
 
 <Pagination
   total={100}
   pageSize={10}
 />
+`;
+    const withJumpToPageCode = `import { Pagination } from '@mistong/eui';
 
 <Pagination
   total={100}
@@ -33,6 +35,8 @@ class DemoComponent extends React.Component {
   defaultCurrent={2}
   showQuickJumper={{ goButton: <button>Go</button> }}
 />
+`;
+    const miniModeCode = `import { Pagination } from '@mistong/eui';
 
 <Pagination
   total={100}
@@ -40,6 +44,9 @@ class DemoComponent extends React.Component {
   defaultCurrent={2}
   simple
 />
+`;
+
+    const noBorderModeCode = `import { Pagination } from '@mistong/eui';
 
 <Pagination
   showQuickJumper
@@ -56,12 +63,13 @@ class DemoComponent extends React.Component {
           <h2>Pagination 分页</h2>
           <p>分页组件</p>
           <h3>代码演示</h3>
-          <Code sourceCode={sourceCode}>
+          <Code sourceCode={basedStyleCode} buttonText="基础模式">
             <Pagination
               total={100}
               pageSize={10}
             />
-
+          </Code>
+          <Code sourceCode={withJumpToPageCode} buttonText="跳转到第 N 页">
             <Pagination
               total={100}
               pageSize={10}
@@ -69,14 +77,16 @@ class DemoComponent extends React.Component {
               defaultCurrent={2}
               showQuickJumper={{ goButton: <button>Go</button> }}
             />
-
+          </Code>
+          <Code sourceCode={miniModeCode} buttonText="极简模式">
             <Pagination
               total={100}
               style={{ margin: '30px 0' }}
               defaultCurrent={2}
               simple
             />
-
+          </Code>
+          <Code sourceCode={noBorderModeCode} buttonText="无边框模式">
             <Pagination
               showQuickJumper
               total={100}
