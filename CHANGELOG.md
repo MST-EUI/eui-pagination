@@ -1,5 +1,11 @@
-<a name="0.1.4"></a>
-## [0.1.4](https://github.com/MST-EUI/eui-pagination/compare/v0.1.3...v0.1.4) (2018-10-25)
+<a name="0.1.5"></a>
+## [0.1.5](https://github.com/MST-EUI/eui-pagination/compare/v0.1.3...v0.1.5) (2018-10-26)
+
+
+### Features
+
+* demo update ([f6b16bc](https://github.com/MST-EUI/eui-pagination/commit/f6b16bc))
+* readme ([436ff1a](https://github.com/MST-EUI/eui-pagination/commit/436ff1a))
 
 
 
